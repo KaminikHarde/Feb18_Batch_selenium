@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[waiting for 1000 mili sec]]>
+    </line>
+    <line>
+      <![CDATA[Launching Browser]]>
+    </line>
+    <line>
+      <![CDATA[waiting for 200 mili sec]]>
+    </line>
+    <line>
+      <![CDATA[waiting for 200 mili sec]]>
+    </line>
+    <line>
+      <![CDATA[reading data from excell row num is 0 cell num is0]]>
+    </line>
+    <line>
+      <![CDATA[waiting for 200 mili sec]]>
+    </line>
+    <line>
+      <![CDATA[waiting for 200 mili sec]]>
+    </line>
+    <line>
+      <![CDATA[reading data from excell row num is 0 cell num is1]]>
+    </line>
+    <line>
+      <![CDATA[waiting for 200 mili sec]]>
+    </line>
+    <line>
+      <![CDATA[waiting for 200 mili sec]]>
+    </line>
+    <line>
+      <![CDATA[waiting for 200 mili sec]]>
+    </line>
+    <line>
+      <![CDATA[waiting for 200 mili sec]]>
+    </line>
+    <line>
+      <![CDATA[switching to child page]]>
+    </line>
+    <line>
+      <![CDATA[waiting for 200 mili sec]]>
+    </line>
+    <line>
+      <![CDATA[getting actual UserName]]>
+    </line>
+    <line>
+      <![CDATA[reading data from excell row num is 0 cell num is2]]>
+    </line>
+    <line>
+      <![CDATA[logging out---]]>
+    </line>
+    <line>
+      <![CDATA[waiting for 1000 mili sec]]>
+    </line>
+    <line>
+      <![CDATA[closing Browser]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-08-14T22:07:37 IST" name="Default suite" finished-at="2023-08-14T22:08:52 IST" duration-ms="74707">
+    <groups>
+    </groups>
+    <test started-at="2023-08-14T22:07:37 IST" name="Default test" finished-at="2023-08-14T22:08:52 IST" duration-ms="74707">
+      <class name="testPolicyBazzar.ValidatePolicyUserName">
+        <test-method is-config="true" signature="launchPolicyBazzar()[pri:0, instance:testPolicyBazzar.ValidatePolicyUserName@2b30a42c]" started-at="2023-08-14T22:07:38 IST" name="launchPolicyBazzar" finished-at="2023-08-14T22:08:17 IST" duration-ms="39717" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[waiting for 1000 mili sec]]>
+            </line>
+            <line>
+              <![CDATA[Launching Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchPolicyBazzar -->
+        <test-method is-config="true" signature="signInToPolicyBazzar()[pri:0, instance:testPolicyBazzar.ValidatePolicyUserName@2b30a42c]" started-at="2023-08-14T22:08:17 IST" name="signInToPolicyBazzar" finished-at="2023-08-14T22:08:38 IST" duration-ms="20227" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[waiting for 200 mili sec]]>
+            </line>
+            <line>
+              <![CDATA[waiting for 200 mili sec]]>
+            </line>
+            <line>
+              <![CDATA[reading data from excell row num is 0 cell num is0]]>
+            </line>
+            <line>
+              <![CDATA[waiting for 200 mili sec]]>
+            </line>
+            <line>
+              <![CDATA[waiting for 200 mili sec]]>
+            </line>
+            <line>
+              <![CDATA[reading data from excell row num is 0 cell num is1]]>
+            </line>
+            <line>
+              <![CDATA[waiting for 200 mili sec]]>
+            </line>
+            <line>
+              <![CDATA[waiting for 200 mili sec]]>
+            </line>
+            <line>
+              <![CDATA[waiting for 200 mili sec]]>
+            </line>
+            <line>
+              <![CDATA[waiting for 200 mili sec]]>
+            </line>
+            <line>
+              <![CDATA[switching to child page]]>
+            </line>
+            <line>
+              <![CDATA[waiting for 200 mili sec]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- signInToPolicyBazzar -->
+        <test-method signature="ValidateUserName()[pri:0, instance:testPolicyBazzar.ValidatePolicyUserName@2b30a42c]" started-at="2023-08-14T22:08:38 IST" name="ValidateUserName" finished-at="2023-08-14T22:08:48 IST" duration-ms="10507" status="FAIL">
+          <exception class="java.io.FileNotFoundException">
+            <message>
+              <![CDATA[D:\screenShot\Kamini Harde.png (The system cannot find the path specified)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.FileNotFoundException: D:\screenShot\Kamini Harde.png (The system cannot find the path specified)
+at java.base/java.io.FileOutputStream.open0(Native Method)
+at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:184)
+at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:136)
+at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:115)
+at utilityPolicyBazzar.Utility.takeScreenShot(Utility.java:39)
+at testPolicyBazzar.ValidatePolicyUserName.ValidateUserName(ValidatePolicyUserName.java:76)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.FileNotFoundException -->
+          <reporter-output>
+            <line>
+              <![CDATA[getting actual UserName]]>
+            </line>
+            <line>
+              <![CDATA[reading data from excell row num is 0 cell num is2]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ValidateUserName -->
+        <test-method is-config="true" signature="logoutFromPolicyBazzar()[pri:0, instance:testPolicyBazzar.ValidatePolicyUserName@2b30a42c]" started-at="2023-08-14T22:08:48 IST" name="logoutFromPolicyBazzar" finished-at="2023-08-14T22:08:49 IST" duration-ms="1145" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logging out---]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logoutFromPolicyBazzar -->
+        <test-method is-config="true" signature="closePolicyBazzar()[pri:0, instance:testPolicyBazzar.ValidatePolicyUserName@2b30a42c]" started-at="2023-08-14T22:08:49 IST" name="closePolicyBazzar" finished-at="2023-08-14T22:08:52 IST" duration-ms="2750" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[waiting for 1000 mili sec]]>
+            </line>
+            <line>
+              <![CDATA[closing Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closePolicyBazzar -->
+      </class> <!-- testPolicyBazzar.ValidatePolicyUserName -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
