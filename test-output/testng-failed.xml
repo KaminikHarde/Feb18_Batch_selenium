@@ -3,15 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testPolicyBazzar.ValidatePolicyUserName">
+      <class name="crossbrowser.NewClassUse">
         <methods>
-          <include name="ValidateUserName"/>
-          <include name="signInToPolicyBazzar"/>
-          <include name="logoutFromPolicyBazzar"/>
-          <include name="closePolicyBazzar"/>
-          <include name="launchPolicyBazzar"/>
+          <include name="e"/>
         </methods>
-      </class> <!-- testPolicyBazzar.ValidatePolicyUserName -->
+      </class> <!-- crossbrowser.NewClassUse -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
